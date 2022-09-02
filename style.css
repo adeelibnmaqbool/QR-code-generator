@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    background: #f1f2f5;
+    display: grid;
+    place-items: center;
+    font-family: 'Libre Baskerville', serif;
+}
+.container{
+    width: 350px;
+    background: #fff;
+    padding: 40px 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ebebeb;
+    text-align: center;
+}
+.container h2{
+    margin-bottom: 15px;
+    color: #ea580c;
+    line-height: 1.5;
+}
+#qr-form{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+#qr-form input,
+#qr-form button{
+    height: 40px;
+    padding: 0 10px;
+    border-radius: 5px;
+    border: 1px solid #ebebeb;
+    outline: none;
+    margin-bottom: 10px;
+}
+#qr-form input:focus{
+    border-color: #ea580c;
+}
+#qr-form button{
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    background: #f97316;
+    color: #fff;
+}
+#qr-form button:hover{
+    background: #ea580c;
+}
+#qr-form .error{
+    margin-bottom: 10px;
+    font-weight: 700;
+    color: red;
+    visibility: hidden;
+}
+.container img{
+    width: 150px;
+    margin-top: 10px;
+    filter: blur(4px);
+    border: 1px solid #ebebeb;
+}
+
+@media screen and (max-width: 500px){
+    .container{
+        width: 90%;
+    }
+}
