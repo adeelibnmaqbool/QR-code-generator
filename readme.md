@@ -1,7 +1,7 @@
 # QR Code Generator
 QR Code genrator is a simple application in HTML, CSS, JavaScript. It generates QR Code on user text
 
-![plot](./default.png)
+![QR Code Genrator in HTML, CSS, JavaScript](./readme.png)
 
 ## How To Make a QR Code Generator in JavaScript?
 You can download the given files by clickining "Code" button
